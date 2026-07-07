@@ -41,6 +41,7 @@ requirements:
     - fftw * {{ mpi_prefix }}_*
     - numpy
     - pip
+    - pybind11
     - ase
     - libvdwxc * {{ mpi_prefix }}_*  # [mpi != 'nompi']
   run:
