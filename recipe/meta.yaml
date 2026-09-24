@@ -51,6 +51,7 @@ requirements:
     - ase
     - gpaw-data >=1
     - pyyaml
+    - elpa * {{ mpi_prefix }}_*
 
 test:
   requires:
